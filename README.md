@@ -12,5 +12,5 @@ A video search engine targeting YouTube's Api built using the following:
 
 # To Run this app
 * Clone and Install the repository
-* Run npm install to install dependecies
+* Install required dependencies via npm install
 * Run npm start 
