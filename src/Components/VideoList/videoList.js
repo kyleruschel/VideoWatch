@@ -23,7 +23,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
                         className='ui image'
                         src={v.snippet.thumbnails.medium.url}
                         alt={v.snippet.description} />
-                    <div className='content'>
+                    <div id='video-list-content' className='content'>
                         <div id='video-list-header' className='header'>{clean(v.snippet.title)}</div>
                     </div>
                 </div>

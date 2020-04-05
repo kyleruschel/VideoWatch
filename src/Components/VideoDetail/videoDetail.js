@@ -1,11 +1,12 @@
 import React from 'react';
 import { clean } from '../../Helpers/helper';
+import './videoDetail.css';
 
 const VideoDetail = ({ selectedVideo }) => {
     return (
         <div>
             <div>
-                <div className='ui embed' style={{ height: '623px' }}>
+                <div className='ui embed'>
                     <iframe
                         title='iframe player'
                         src={`https://www.youtube.com/embed/${selectedVideo.id.videoId}`}

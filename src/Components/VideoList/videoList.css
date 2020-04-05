@@ -6,12 +6,14 @@
 }
 
 #video-list-root-container {
-    height: 738px;
+    height: 688px;
     padding: 0 5%;
     overflow: scroll;
+    background: #000;
 }
 
 #video-list-header {
     color: white;
     padding: 10px;
+    border-bottom: 1px solid #fff;
 }
