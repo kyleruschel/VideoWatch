@@ -25,7 +25,9 @@ const VideoWatch = () => {
             params: {
                 part: 'snippet',
                 type: 'video',
-                maxResults: 10,
+                maxResults: 50,
+                order: 'date',
+                videoDefinition: 'high',
                 key: KEY,
                 q: term,
             }

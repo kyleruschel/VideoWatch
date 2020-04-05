@@ -30,6 +30,12 @@ const VideoList = ({ videos, onVideoSelect, show }) => {
                         style={{ borderBottom: show ? '1px solid #fff' : 'none' }}>
                             {clean(v.snippet.title)}
                         </div>
+                        <div style={{ color: 'wheat', textAlign: 'center'}}>
+                            {v.snippet.channelTitle}
+                        </div>
+                        <div style={{ color: 'wheat', textAlign: 'center', marginTop: '2%'}}>
+                            {new Date(v.snippet.publishedAt).toDateString()}
+                        </div>
                     </div>
                 </div>
             ))}
