@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import SearchInput from '../../Components/Input/input';
 import VideoList from '../../Components/VideoList/videoList';
 import youtube, { KEY } from '../../Apis/youtube';
-import './videoWatch.css';
 import VideoDetail from '../../Components/VideoDetail/videoDetail';
+import './videoWatch.css';
 
 const VideoWatch = () => {
     const [search, setSearch] = useState('');
