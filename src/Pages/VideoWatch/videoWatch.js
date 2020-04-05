@@ -32,6 +32,7 @@ const VideoWatch = () => {
             }
         });
 
+        setSelectedVideo(response.data.items[0]);
         return setData(response.data.items);
     }
 
