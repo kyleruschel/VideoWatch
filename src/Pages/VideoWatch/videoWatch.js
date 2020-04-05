@@ -48,22 +48,20 @@ const VideoWatch = () => {
                     onInputChange={onInputChange}
                     onFormSubmit={onFormSubmit}
                 />
-                <div className='videoSection'>
-                    {show && <div className='videoDetailContainer'>
-                        <VideoDetail
-                            selectedVideo={selectedVideo} />
-                    </div>}
-                    <div
-                        className='videoListContainer'
-                        style={{
-                            width: show ? '25%' : '80%',
-                            margin: show ? 'none' : 'auto'
-                        }}>
-                        <VideoList
-                            videos={data}
-                            onVideoSelect={onVideoSelect}
-                            show={show}
-                        />
+                <div className='ui grid'>
+                    <div className='ui row'>
+                        <div className='eleven wide column'>
+                            <VideoDetail
+                                selectedVideo={selectedVideo} />
+                        </div>
+                        <div
+                            className='five wide column'>
+                            <VideoList
+                                videos={data}
+                                onVideoSelect={onVideoSelect}
+                                show={show}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

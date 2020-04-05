@@ -3,6 +3,10 @@ import { clean } from '../../Helpers/helper';
 import './videoDetail.css';
 
 const VideoDetail = ({ selectedVideo }) => {
+    if(!selectedVideo) {
+        return null;
+    }
+    
     return (
         <div>
             <div>

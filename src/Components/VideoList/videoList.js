@@ -33,7 +33,7 @@ const VideoList = ({ videos, onVideoSelect, show }) => {
                         <div style={{ color: 'wheat', textAlign: 'center', marginTop: '2%'}}>
                             {`YouTube Channel: ${v.snippet.channelTitle}`}
                         </div>
-                        <div style={{ color: 'wheat', textAlign: 'center', marginTop: '2%'}}>
+                        <div style={{ color: 'wheat', textAlign: 'center', marginTop: '2%', padding: '2%', borderBottom: '1px solid white'}}>
                             {`Date Published: ${new Date(v.snippet.publishedAt).toDateString()}`}
                         </div>
                     </div>

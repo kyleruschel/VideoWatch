@@ -1,13 +1,3 @@
-.videoSection {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.videoDetailContainer {
-    width: 74%;
-}
-
 .container {
     margin-top: 1%;
     height: 95.9vh;

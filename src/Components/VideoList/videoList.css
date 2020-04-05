@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    margin-top: 4%;
 }
 
 #video-list-root-container {
