@@ -60,7 +60,9 @@ const VideoWatch = () => {
                         }}>
                         <VideoList
                             videos={data}
-                            onVideoSelect={onVideoSelect} />
+                            onVideoSelect={onVideoSelect}
+                            show={show}
+                        />
                     </div>
                 </div>
             </div>
