@@ -25,7 +25,7 @@ const VideoWatch = () => {
             params: {
                 part: 'snippet',
                 type: 'video',
-                maxResults: 50,
+                maxResults: 10,
                 key: KEY,
                 q: term,
             }
@@ -52,7 +52,12 @@ const VideoWatch = () => {
                         <VideoDetail
                             selectedVideo={selectedVideo} />
                     </div>}
-                    <div className='videoListContainer'>
+                    <div
+                        className='videoListContainer'
+                        style={{
+                            width: show ? '25%' : '80%',
+                            margin: show ? 'none' : 'auto'
+                        }}>
                         <VideoList
                             videos={data}
                             onVideoSelect={onVideoSelect} />
