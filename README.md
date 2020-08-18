@@ -6,7 +6,7 @@ A video search engine targeting YouTube's Api built using the following:
 * React hooks
 * Semantic UI
 * YouTube Api
-* Goole Fonts
+* Google Fonts
 * BrowserRouter & Link for Client Side Rendering
 * Axios
 
